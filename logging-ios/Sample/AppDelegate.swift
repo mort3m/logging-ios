@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import mySugr_Logging
+import Logging
 
 let log = LoggingProvider.self
 

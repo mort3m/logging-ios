@@ -24,7 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		17975D762086262600106A34 /* logging_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = logging_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17975D762086262600106A34 /* Logging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Logging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		17975D792086262600106A34 /* logging_ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = logging_ios.h; sourceTree = "<group>"; };
 		17975D7A2086262600106A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17975D852086263900106A34 /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,7 +74,7 @@
 		17975D772086262600106A34 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				17975D762086262600106A34 /* logging_ios.framework */,
+				17975D762086262600106A34 /* Logging.framework */,
 				17975D852086263900106A34 /* Sample.app */,
 			);
 			name = Products;
@@ -155,7 +155,7 @@
 			);
 			name = "logging-ios";
 			productName = "logging-ios";
-			productReference = 17975D762086262600106A34 /* logging_ios.framework */;
+			productReference = 17975D762086262600106A34 /* Logging.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		17975D842086263900106A34 /* Sample */ = {
@@ -416,7 +416,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mort3m.logging-ios";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = Logging;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -440,7 +440,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mort3m.logging-ios";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = Logging;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
