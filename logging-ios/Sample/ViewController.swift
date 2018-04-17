@@ -13,8 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let testData = TestStruct(name: "Get schwifty", url: URL(string: "https://mort3m.io")!)
-        log.debug("🧐", ["LOGI-3250"], ["whatever": testData])
+        log.debug("🧐", ["LOGI-3250"], ["whatever": 13])
         log.info("Sup?")
         
         do {
